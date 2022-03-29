@@ -28,14 +28,12 @@ export default function portfolio() {
 
     return (
         <div className='portfolio' id="portfolio">
-            <h1>Portfolio</h1>
+        
             <ul>
                {
                    list.map((item)=>(
                        <PortfolioList
                        title = {item.title}
-                       active = {selected === item.id }
-                       setSelected={setSelected}
                        id={ item.id}
                        />
                    ))}
@@ -46,9 +44,10 @@ export default function portfolio() {
                     <img src = {d.img}
                      alt="" />
                     <h3>{d.title}</h3>
+                    <a href={d.src}>{`Code here </>`}</a>
+                    <a href={d.web}>Web</a>
                 </div>
-                ))}
-                
+              ))} 
             </div>
         </div>
     )
