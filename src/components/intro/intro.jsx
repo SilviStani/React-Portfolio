@@ -11,7 +11,7 @@ export default function intro() {
     useEffect(()=>{
         init(textRef.current, {
             showCursor: true,
-            strings: ["Web Designer", "in progress!"],
+            strings: ["Web Designer", "Javascript", "React/Redux", "Sql/Postgres", "Node.js/Express", "Css, Html"],
         });
     },[]);
     return (

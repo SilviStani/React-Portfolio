@@ -38,7 +38,7 @@ export const bootcamp = [
     title: "VIPets",
     web: "https://vipets.vercel.app/",
     img:
-    "https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
     src:"https://github.com/Navito-py/PF-PuppyPalace",
   }
 ];
