@@ -8,7 +8,7 @@ export default function Contact() {
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-      <a download href="assets/SilvinaStaniCv.pdf">
+      <a download href="assets/SilvinaStaniEn.pdf">
         <button class="download-cv">Download CV</button>
       </a>
       </div>
