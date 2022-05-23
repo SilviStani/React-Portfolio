@@ -6,11 +6,12 @@ import {bootcamp} from "../../data.js";
 
 export default function portfolio() {
     const [selected, setSelected] = useState("bootcamp");
+    const [ work, setWork ] = useState([]) //asi se declara el estado Vacio... seteado en nada... seteado en vacio
     const [data, setData] =useState([]);
     const list = [
         {
             id: "bootcamp",
-            title: "BootCamp",
+            title: "My Projects",
           }
         ];
 
@@ -40,12 +41,12 @@ export default function portfolio() {
             </ul>
             <div className="container">
                 {data.map((d)=>(
-                    <div className="item">
+                    <div className="item" key={d.id}>
                     <img src = {d.img}
-                     alt="" />
+                     alt="" className="img-portfolio"/>
                     <h3>{d.title}</h3>
-                    <a href={d.src}>{`Code here </>`}</a>
-                    <a href={d.web}>Web</a>
+                    <button className="btn-btn"><a href={d.src}>{`Code here </>`}</a></button>
+                    <button className="btn-btn"><a href={d.web}>Web</a></button>
                 </div>
               ))} 
             </div>

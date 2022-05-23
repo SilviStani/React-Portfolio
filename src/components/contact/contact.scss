@@ -32,13 +32,13 @@
             border-radius: 10px;
             border: none;
             transition: all .5s ease;
-            padding: 30px;
+            padding: 20px;
            }
           
           .download-cv:hover {
             background-color: black;
             color: crimson;
-            font-size: large;
+            transition: all 1s ease;
           }
 
         h2 {
@@ -78,23 +78,25 @@
                 }
             }
 
-            button {
+            .button {
                 width: 150px;
                 height: 30px;
                 color: whitesmoke;
                 background-color: crimson;
                 border: none;
                 border-radius: 10px;
+            }
 
-                &:focus{
-                    outline: none;
+                .button:hover{
+                    cursor: pointer;
+                    background-color: black;
+                    color: crimson;
+                    transition: all 1s ease;
                 }
 
-            }
-
-            span {
+                span {
                 color: green;
-            }
+                }
         }
     }
 }

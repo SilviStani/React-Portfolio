@@ -1,6 +1,6 @@
 import "./portfolioList.scss";
 
-export default function portfolioList({ title, web, src}) {
+export default function portfolioList({title, web, src}) {
     return (
         <div className="portfolioList">
         <h3 >{title}</h3>

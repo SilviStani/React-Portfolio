@@ -52,6 +52,14 @@ export default function Works() {
             src:"https://github.com/SilviStani/Vacation-TodoList",
             desc: "Una Todo list creada a puro vanilla javascript. Sus efectos y estilos en Css."
           },
+          {
+            id: 6,
+            title: "Estetyczna Nadja Szewska",
+            web: "",
+            img: "/assets/introPage.jpg",
+            src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
+            desc: "SPA de Estética corporal y facial. Servicio de belleza integral."
+          }
     ]
 
     const handleClick = (way) => {
@@ -61,7 +69,8 @@ export default function Works() {
     }
 
     return (
-        <div className='works' id="works">
+      <div className='works' id="works">
+        <h1>Works & Projects</h1>
             <div className="slider" 
             style={{transform:`translateX(-${currenteSlider *100}vw)`}}>
                 {data.map((d) =>(

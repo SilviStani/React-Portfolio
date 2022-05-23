@@ -3,6 +3,7 @@ export const bootcamp = [
   {
     id: 1,
     title: "TodoList: Vacation",
+    desc: "A simple todo list, all vanilla javascript. You can see the code by clicking the link",
     web: "https://github.com/SilviStani/Vacation-TodoList",
     img:
     "https://user-images.githubusercontent.com/90510746/148145113-25ef5a46-17d7-4c5f-b9e0-07716ffc0b02.png",
@@ -40,5 +41,12 @@ export const bootcamp = [
     img:
     "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
     src:"https://github.com/Navito-py/PF-PuppyPalace",
+  },
+  {
+    id: 6,
+    title: "Estetyczna Nadja Szewska",
+    web: "https://estetyczna-nadja-szewska.vercel.app/",
+    img: "/assets/introPage.jpg",
+    src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
   }
 ];
