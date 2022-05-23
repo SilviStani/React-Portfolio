@@ -3,6 +3,7 @@ import Menu from "./components/menu/menu";
 import Intro from "./components/intro/intro";
 import Portfolio from "./components/portfolio/portfolio";
 import Works from "./components/works/works";
+//import Details from "./components/details/details";
 //import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
 import "./app.scss";
@@ -18,7 +19,6 @@ function App() {
        <Intro/>
        <Portfolio/>
        <Works/>
-       
        <Contact/>
      </div>
     </div>
