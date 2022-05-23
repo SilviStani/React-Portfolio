@@ -11,7 +11,7 @@ export default function intro() {
     useEffect(()=>{
         init(textRef.current, {
             showCursor: true,
-            strings: ["Web Designer", "Javascript", "React/Redux", "Sql/Postgres", "Node.js/Express", "Css, Html"],
+            strings: ["Web Designer", "Javascript", "React/Redux", "Sequelize/Postgres", "Node.js/Express", "Css, Html"],
         });
     },[]);
     return (
@@ -23,7 +23,7 @@ export default function intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hola!, Soy</h2>
+                    <h2>Hola! Soy</h2>
                     <h1>Silvina Staniszewski</h1>
                     <h3>Full Stack Web Developer <span ref={textRef} ></span> </h3>
                 </div>
