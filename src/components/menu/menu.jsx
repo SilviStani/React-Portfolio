@@ -21,7 +21,7 @@ export default function menu({menuOpen, setMenuOpen}) {
     </li> */}
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#contact">Download CV</a>
+                    <a href="#contact">Contact && Download CV</a>
                 </li>
 
             </ul>
