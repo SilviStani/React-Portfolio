@@ -63,12 +63,22 @@
                     text-decoration: none;
                 }
 
+                .download-cv {
+                    background-color: transparent;
+                    color: white;
+                    font-size: 18px;
+                    cursor: pointer;
+                    border: none;
+                   }
+                  
+
                 span{
                     font-size: 15px;
                     font-weight: 500;
                 }
 
             }
+        
         }
 
         .right {

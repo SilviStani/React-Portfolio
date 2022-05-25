@@ -7,7 +7,7 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
         <div className={'topbar ' + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">SS</a>
+                    <a href="#intro" className="logo"><img src="/assets/logoYo.png" alt="" height={60} width={60} /></a>
                     <div className="itemContainer">
                     <WhatsApp className="icon"/>
                     <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0">+549-011-1563632288</a>
@@ -27,6 +27,14 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                         <LinkedIn className="icon" />
                         <a href="https://www.linkedin.com/in/silvina-staniszewski-18493276/" className="icon">Silvina Staniszewski</a>
                        {/*} <img src="/assets/trabajo.png" alt="" height={50} width={50}/>*/}
+                    </div>
+                    <div className="itemContainer">
+                      <a download href="assets/Resume.pdf">
+                        <button class="download-cv">/Download CV/</button>
+                      </a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="#contact" class="download-cv">/Contact/</a>
                     </div>
                 </div>
                 <div className="right">
