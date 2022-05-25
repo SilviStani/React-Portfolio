@@ -25,7 +25,7 @@ export default function intro() {
                 <div className="wrapper">
                     <h2>Hola! Soy</h2>
                     <h1>Silvina Staniszewski</h1>
-                    <h3>Full Stack Web Developer <span ref={textRef} ></span> </h3>
+                    <h3>Javascript Full Stack Developer <span ref={textRef} ></span> </h3>
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="" />

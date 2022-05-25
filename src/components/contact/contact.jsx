@@ -46,7 +46,7 @@ const sendEmail = (e) => {
             <button className='button'>Enviar</button>
             {send && 'Gracias!!! Conversamos Pronto :)'}
         </form>
-      <a download href="assets/SilvinaStaniCv.pdf">
+      <a download href="assets/Resume.pdf">
         <button class="download-cv">Download CV</button>
       </a>
       </div>
