@@ -82,7 +82,7 @@ if (empty.user_mail && empty.user_subject){
         </form>}
         { send &&
             <div className="overflow">
-            <span>  Gracias!!! Conversamos Pronto :) <img src="/assets/besos.png" alt="" height={100} width={100} /></span>
+            <span>  Gracias!!! Conversamos Pronto :) <img src="/assets/besos.png" alt="" height={350} width={350} /></span>
             </div>
             }
       </div>
