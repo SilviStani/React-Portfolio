@@ -99,7 +99,7 @@
             height: 100px;
         }
 
-        @media (min-width: 769px) and 
+        @media (min-width: 660px) and 
         (max-width: 1200px) {
             width: 200px;
             height: fit-content;    
@@ -109,7 +109,7 @@
 
             h3{
                 font-size: 20px;
-                @media (min-width: 769px) and 
+                @media (min-width: 660px) and 
                 (max-width: 1200px) {
                 font-size: 15px;
                 }
