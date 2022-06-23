@@ -45,8 +45,8 @@ export default function portfolio() {
                     <img src = {d.img}
                      alt="" className="img-portfolio"/>
                     <h3>{d.title}</h3>
-                    <button className="btn-btn"><a href={d.src}>{`Code here </>`}</a></button>
-                    <button className="btn-btn"><a href={d.web}>Web</a></button>
+                    <button className="btn-btn"><a href={d.src} target='blank'>{`Code here </>`}</a></button>
+                    <button className="btn-btn"><a href={d.web} target='blank'>Web</a></button>
                 </div>
               ))} 
             </div>

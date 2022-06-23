@@ -24,7 +24,7 @@ export const bootcamp = [
     web: "https://github.com/SilviStani/Pi-Food",
     img:
       "https://user-images.githubusercontent.com/90510746/155239699-a0ab095e-cfb3-4a32-8756-e1f3b9e4d948.jpg",
-    src:"https://github.com/SilviStani/Vacation-TodoList",
+    src:"https://github.com/SilviStani/Pi-Food",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export const bootcamp = [
     web: "https://react-portfolio-omega-sooty.vercel.app/",
     img:
     "https://user-images.githubusercontent.com/90510746/155241489-2df2e29a-f32d-4046-8551-df69e2a9cb32.jpg",
-      src:"https://github.com/SilviStani/Vacation-TodoList",
+      src:"https://github.com/SilviStani/React-Portfolio",
   },
   {
     id: 5,
