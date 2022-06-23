@@ -99,10 +99,15 @@
             height: 100px;
         }
 
-        @include media(">tablet", "<=desktop", "retina2x") {
+        @media (min-width: 769px) and 
+        (max-width: 992px) and 
+        (-webkit-min-device-pixel-ratio: 2),
+        (min-width: 769px) and 
+        (max-width: 992) and 
+        (min-resolution: 192dpi) {
             width: 200px;
-            height: fit-content;
-        }
+            height: fit-content;    
+ }
 
             h3{
                 font-size: 20px;
