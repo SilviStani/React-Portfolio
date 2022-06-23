@@ -100,17 +100,23 @@
         }
 
         @media (min-width: 769px) and 
-        (max-width: 992px) and 
-        (-webkit-min-device-pixel-ratio: 2),
-        (min-width: 769px) and 
-        (max-width: 992) and 
-        (min-resolution: 192dpi) {
+        (max-width: 992px) {
             width: 200px;
             height: fit-content;    
- }
+            align-items: center;
+            justify-content: center;
+        }
 
             h3{
                 font-size: 20px;
+                @media (min-width: 769px) and 
+                (max-width: 992px) {
+                font-size: 15px;
+                }
+
+                @include mobile {
+                    font-size: 15px;
+                }
             }
 
             img {
