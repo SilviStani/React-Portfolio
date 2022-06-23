@@ -58,9 +58,7 @@ if (empty.user_mail && empty.user_subject){
         
     });
   } else {
-    swal({
-      title: "Faltan campos por completar",
-    })
+    swal("Atención!","Faltan campos por completar")
   }
 };
   return (
