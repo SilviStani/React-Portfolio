@@ -48,5 +48,12 @@ export const bootcamp = [
     web: "https://estetyczna-nadja-szewska.vercel.app/",
     img: "/assets/introPage.jpg",
     src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
+  },
+  {
+    id: 7,
+    title: "Delicias y Manjares",
+    web: "https://deliciasymanjares.vercel.app/",
+    img: "/assets/3.jpg",
+    src:"https://github.com/SilviStani/deliciasymanjares",
   }
 ];
