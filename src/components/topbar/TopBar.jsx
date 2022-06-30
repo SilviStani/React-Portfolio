@@ -9,27 +9,27 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                 <div className="left">
                     <a href="#intro" className="logo"><img src="/assets/logoYo.png" alt="" height={60} width={60} /></a>
                     <div className="itemContainer">
-                    <WhatsApp className="icon"/>
-                    <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0">+549-011-1563632288</a>
+                    
+                    <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0" target="blank"><WhatsApp className="icon"/></a>
                     {/*<img src="/assets/contact_me.png" alt="" height={50} width={50}/>*/}
                     </div>
                     <div className="itemContainer">
-                        <Mail className="icon" />
-                        <a href = "mailto:silvina@gmail.com?subject = Feedback&body = Message">silvina.stani@gmail.com</a>
+                        
+                        <a href = "mailto:silvina.stani@gmail.com?subject = Feedback&body = Message" target="blank"><Mail className="icon" /></a>
                         {/*<img src="/assets/mail.png" alt="" height={50} width={50}/>*/}
                     </div>
                     <div className="itemContainer">
-                        <GitHub className="icon" />
-                       <a href="https://github.com/SilviStani" className="icon">SilviStani</a>
+                        
+                       <a href="https://github.com/SilviStani" className="icon" target="blank"><GitHub className="icon" /></a>
                         {/*<img src="/assets/github_st.png" alt="" height={50} width={50}/>*/}
                        </div>
                     <div className="itemContainer">
-                        <LinkedIn className="icon" />
-                        <a href="https://www.linkedin.com/in/silvina-staniszewski-18493276/" className="icon">Silvina Staniszewski</a>
+                        
+                        <a href="https://www.linkedin.com/in/silvina-staniszewski-18493276/" target="blank" className="icon"><LinkedIn className="icon" /></a>
                        {/*} <img src="/assets/trabajo.png" alt="" height={50} width={50}/>*/}
                     </div>
                     <div className="itemContainer">
-                      <a download href="assets/Resume.pdf">
+                      <a download href="assets/Resume.pdf" target="blank">
                         <button class="download-cv">/Download CV/</button>
                       </a>
                     </div>
