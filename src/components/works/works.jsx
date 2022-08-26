@@ -18,7 +18,6 @@ export default function Works() {
           {
             id: 2,
             title: "Food*HenryApp",
-            web: "https://github.com/SilviStani/Pi-Food",
             img:
               "https://user-images.githubusercontent.com/90510746/155239699-a0ab095e-cfb3-4a32-8756-e1f3b9e4d948.jpg",
             src:"https://github.com/SilviStani/Pi-Food",
@@ -36,7 +35,6 @@ export default function Works() {
           {
             id: 4,
             title: "Chronometer",
-            web: "https://github.com/SilviStani/Chronometer-Countdown-Timer",
             img:
               "https://user-images.githubusercontent.com/90510746/148205845-1f650bfd-15ad-433c-839d-962786b50e83.png",
             src: "https://github.com/SilviStani/Chronometer-Countdown-Timer",
@@ -46,7 +44,6 @@ export default function Works() {
           {
             id: 5,
             title: "TodoList: Vacation",
-            web: "https://github.com/SilviStani/Vacation-TodoList",
             img:
             "https://user-images.githubusercontent.com/90510746/148145113-25ef5a46-17d7-4c5f-b9e0-07716ffc0b02.png",
             src:"https://github.com/SilviStani/Vacation-TodoList",
@@ -55,10 +52,26 @@ export default function Works() {
           {
             id: 6,
             title: "Estetyczna Nadja Szewska",
-            web: "",
+            web: "https://estetyczna-nadja-szewska.vercel.app/",
             img: "/assets/introPage.jpg",
             src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
             desc: "SPA de Estética corporal y facial. Servicio de belleza integral."
+          },
+          {
+            id: 7,
+            title: "Delicias y Manjares",
+            web: "https://deliciasymanjares.vercel.app/",
+            img: "/assets/3.jpg",
+            src:"https://github.com/SilviStani/deliciasymanjares",
+            desc: "Las delicias mas exquisitas y frescas de todo Escobar. No dudes en probar :)"
+          },
+          {
+            id: 8,
+            title: "Cabañas Mirsú",
+            web: "https://cabanasmirsu.vercel.app",
+            img: "/assets/Cabanias-mirsu.png",
+            src:"https://github.com/SilviStani/cabanias_mirsu",
+            desc: "Cabañas en Villa General Belgrano. Mapa de ubicación, links a sitios de interés, sitios de necesidad."
           }
     ]
 
@@ -83,8 +96,14 @@ export default function Works() {
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
-                                <span><a href={d.src}>Projects</a></span>
-                            </div>
+                                <span><a href={d.src} className="a">Code</a></span>
+                                {
+                                  d.web ?
+                                  <span><a href={d.web} className="a">Web Link</a></span> 
+                                  :
+                                  <span></span>
+                                }
+                              </div>
                         </div>
                         <div className="right">
                             <img src={d.img} alt="" />

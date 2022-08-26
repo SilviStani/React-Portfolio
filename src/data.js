@@ -55,5 +55,12 @@ export const bootcamp = [
     web: "https://deliciasymanjares.vercel.app/",
     img: "/assets/3.jpg",
     src:"https://github.com/SilviStani/deliciasymanjares",
+  },
+  {
+    id: 8,
+    title: "Cabañas Mirsú",
+    web: "https://cabanasmirsu.vercel.app",
+    img: "/assets/Cabanias-mirsu.png",
+    src:"https://github.com/SilviStani/cabanias_mirsu",
   }
 ];
