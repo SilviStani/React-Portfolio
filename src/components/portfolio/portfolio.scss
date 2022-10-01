@@ -50,6 +50,7 @@
 
     
     .btn-btn{
+        transition: all 1s ease-in-out;
         background-color: crimson;
         border: none;
         border-radius: 5px;
@@ -58,12 +59,15 @@
     
     .btn-btn:hover{
         transform: scale(1.1);
-        transition: all 1s ease;
+        transition: all 1s ease-in-out
     }
 
+    .img-portfolio{
+        transition: all 1s ease-in-out;
+    }
     .img-portfolio:hover{
         transform: scale(1.1);
-        transition: all 1s ease;
+        transition: all 1s ease-in-out;
     }
     
     .container{
@@ -79,9 +83,9 @@
         }
 
         .item{
-            width: 250px;
+            width: 300px;
             height: fit-content;
-            border-radius: 10px;
+            border-radius: 80px;
             margin: 10px 20px;
             display: flex;
             flex-direction: column;
@@ -90,7 +94,6 @@
             color: white;
             position: relative;
             transition: all 0.5s ease;
-            box-shadow: 3px 3px 3px 3px crimson;
             cursor: pointer;
 
             
