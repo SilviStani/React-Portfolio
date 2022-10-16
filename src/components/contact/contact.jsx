@@ -42,9 +42,8 @@ const sendEmail = (e) => {
   e.preventDefault();
   setErrors(validate(empty))
 if (empty.user_mail && empty.user_subject){ 
-   emailjs.sendForm('service_j5bg2fa', 'template_fxxt0rn', form.current, 'user_No7Wk2Xmmcxmswl29wqsY')
+   emailjs.sendForm('service_8wiaiix', 'template_fxxt0rn', form.current, 'user_No7Wk2Xmmcxmswl29wqsY')
     .then((result) => {
-        console.log(result.text);
         setSend(true)
         setEmpty({
           name: '',
