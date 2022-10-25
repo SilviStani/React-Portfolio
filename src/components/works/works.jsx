@@ -96,7 +96,7 @@ export default function Works() {
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
-                                <span><a href={d.src} className="a">Code</a></span>
+                                <span><a href={d.src} className="a">Github Code</a></span>
                                 {
                                   d.web ?
                                   <span><a href={d.web} className="a">Web Link</a></span> 

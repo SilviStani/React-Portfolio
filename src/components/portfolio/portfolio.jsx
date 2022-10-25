@@ -43,10 +43,14 @@ export default function portfolio() {
                 {data.map((d)=>(
                     <div className="item" key={d.id}>
                     <img src = {d.img}
-                     alt="" className="img-portfolio"/>
+                     alt={d.alt} className="img-portfolio"/>
                     <h3>{d.title}</h3>
-                    <button className="btn-btn"><a href={d.src} target='blank'>{`Code here </>`}</a></button>
-                    <button className="btn-btn"><a href={d.web} target='blank'>Web</a></button>
+                    <button className="btn-btn"><a href={d.src} target='blank'>{`Github Code </>`}</a></button>
+                    {
+                        d.web.length > 1 && d.web ?
+                    <button className="btn-btn"><a href={d.web} target='blank'>Web</a></button> :
+                    <p></p>
+                    }
                 </div>
               ))} 
             </div>
