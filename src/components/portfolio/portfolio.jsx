@@ -11,7 +11,7 @@ export default function portfolio() {
     const list = [
         {
             id: "bootcamp",
-            title: "My Projects",
+            title: "Pic Gallery",
           }
         ];
 
@@ -44,14 +44,7 @@ export default function portfolio() {
                     <div className="item" key={d.id}>
                     <img src = {d.img}
                      alt={d.alt} className="img-portfolio"/>
-                    <h3>{d.title}</h3>
-                    <button className="btn-btn"><a href={d.src} target='blank'>{`Github Code </>`}</a></button>
-                    {
-                        d.web.length > 1 && d.web ?
-                    <button className="btn-btn"><a href={d.web} target='blank'>Web</a></button> :
-                    <p></p>
-                    }
-                </div>
+                    </div>
               ))} 
             </div>
         </div>

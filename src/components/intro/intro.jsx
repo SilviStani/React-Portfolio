@@ -10,8 +10,13 @@ export default function intro() {
 
     useEffect(()=>{
         init(textRef.current, {
-            showCursor: true,
-            strings: ["Web Designer", "Javascript", "React/Redux", "Sequelize/Postgres", "Node.js/Express", "Css, Html"],
+            showcursor: true,
+            typeSpeed:  150,
+            backDelay: 1000,
+            backSpeed: 100,
+            strings: [" Automation Tester", " Selenium"," C#", " Web Designer",
+             " Javascript", " Next.Js/React/Redux", " Node.js/Express"],
+
         });
     },[]);
     return (
