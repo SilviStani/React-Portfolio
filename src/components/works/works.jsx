@@ -9,7 +9,6 @@ export default function Works() {
           {
             id: 1,
             title: "VIPets",
-            web: "https://vipets.vercel.app/",
             img:
             "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
             src:"https://github.com/Navito-py/PF-PuppyPalace",
@@ -26,10 +25,9 @@ export default function Works() {
           {
             id: 3,
             title: "Portfolio",
-            web: "https://react-portfolio-omega-sooty.vercel.app/",
-            img:
-            "https://user-images.githubusercontent.com/90510746/155241489-2df2e29a-f32d-4046-8551-df69e2a9cb32.jpg",
-              src:"https://github.com/SilviStani/Vacation-TodoList",
+            web: "react-portfolio-silvistani.vercel.app",
+            img:"https://user-images.githubusercontent.com/90510746/206809662-801fbf30-7ab4-48f7-bb2d-e39e84cdb0e7.png",
+              src:" https://github.com/SilviStani/React-Portfolio",
               desc:"Mi propia descripcion, con mis trabajos y mis pasiones"
           },
           {
@@ -89,28 +87,25 @@ export default function Works() {
                 {data.map((d) =>(
                 <div className="container">
                     <div className="item">
-                        <div className="left">
-                            <div className="leftContainer">
-                                <div className="imgContainer">
-                                    <img src="assets/mobile.png" alt="" />
-                                </div>
-                                <h2>{d.title}</h2>
-                                <p>{d.desc}</p>
-                                <span><a href={d.src} className="a">Github Code</a></span>
-                                {
-                                  d.web ?
-                                  <span><a href={d.web} className="a">Web Link</a></span> 
-                                  :
-                                  <span></span>
-                                }
-                              </div>
-                        </div>
                         <div className="right">
                             <img src={d.img} alt="" />
                         </div>
                     </div>
-                   
-                </div>
+                    <div className="left">
+                        <div className="leftContainer">
+                          <h2>{d.title}</h2>
+                          <p>{d.desc}</p>
+                            <span><a href={d.src} className="a" target="_blank" rel="noreferrer">Github Code</a></span>
+                              {
+                                d.web ?
+                                <span><a href={d.web} className="a" target="_blank" rel="noreferrer">Web Link</a></span> 
+                                :
+                                <span></span>
+                              }
+                        </div>
+                      </div>
+                  
+                  </div>
                  ))}
             </div>
             <img src="assets/arrow.png" className="arrow left" alt="" onClick={()=>handleClick("left")}/>
