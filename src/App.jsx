@@ -8,6 +8,7 @@ import Works from "./components/works/works";
 import Contact from "./components/contact/contact";
 import "./app.scss";
 import { useState } from 'react';
+//import Footer from './components/Footer/Footer';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ function App() {
     <div className="app">
      <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      {/*<Footer />*/}
      <div className="sections">
        <Intro/>
        <Works/>

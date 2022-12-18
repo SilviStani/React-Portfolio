@@ -28,7 +28,7 @@ export default function Works() {
             web: "react-portfolio-silvistani.vercel.app",
             img:"https://user-images.githubusercontent.com/90510746/206809662-801fbf30-7ab4-48f7-bb2d-e39e84cdb0e7.png",
               src:" https://github.com/SilviStani/React-Portfolio",
-              desc:"Mi propia descripcion, con mis trabajos y mis pasiones"
+              desc:"Pequeña descripción de mis trabajos y mis pasiones."
           },
           {
             id: 4,

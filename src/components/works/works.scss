@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .works {
-    background-color: crimson;
+    background-image: linear-gradient( black, crimson);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,11 +69,16 @@
                     justify-content:space-between;
                     text-decoration: none;
                     color: #fff;
+                    border: white 2px solid;
+                    border-radius: 20px;
+                    padding: 2%;
+                    cursor: pointer;
 
                     .a{
                         font-size: 15px;
                         color: white;
                         text-decoration: none;
+                        
 
                     }
 
@@ -104,11 +109,18 @@
                         font-size: 13px;
                         font-weight: bold;
                         cursor: pointer;
+                        border: white 1px solid;
+                        display: flex;
+                        justify-content: center;
                     }
+                }
+                .leftContainer:hover{
+                    box-shadow: 5px 5px 15px 2px rgba(95, 0, 0, 0.735);
                 }
             }
 
             .right {
+                
                 flex: 8;
                 height: 100%;
                 display: flex;
@@ -116,9 +128,20 @@
                 justify-content: center;
                 overflow: hidden;
                 margin-left: 5%;
+                cursor: pointer;
                 img {
                     width: 600px;
                 }
+            }
+            img{
+                border: black solid 2.5px;
+                border-radius: 30px;
+            }
+            img:hover{
+                box-shadow: 5px 5px 15px 2px rgba(95, 0, 0, 0.735);
+            }
+            h2{
+                border-bottom: white 2px solid;
             }
         }
     }

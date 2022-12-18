@@ -37,6 +37,7 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                         <a href="#contact" class="download-cv">/Contact/</a>
                     </div>
                 </div>
+
                 <div className="right">
                     <div className="hamburguer" onClick={()=>setMenuOpen(!menuOpen)}>
                         <span className="line1"></span>
@@ -45,6 +46,8 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                     </div>
                 </div>
             </div>
+            <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0" target="blank"><img className="WhatsappSilvina" src="./assets/contact_me.png" alt="WhatsApp Silvina" /></a>
+           
         </div>
     )
 }

@@ -14,7 +14,7 @@ export default function intro() {
             typeSpeed:  150,
             backDelay: 1000,
             backSpeed: 100,
-            strings: [" Automation Tester", " Selenium"," C#", " Web Designer",
+            strings: [" Automation Tester", " Selenium"," C#", " Web Developer",
              " Javascript", " Next.Js/React/Redux", " Node.js/Express"],
 
         });

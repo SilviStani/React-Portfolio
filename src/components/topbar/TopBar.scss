@@ -26,6 +26,19 @@
         flex-shrink: 0;
         user-select: none;
     }
+    .WhatsappSilvina{
+        height: 180px;
+        width: auto;
+        position: fixed;
+        display: flex;
+        right: 0;
+        bottom: 0;
+        transition: all 1s ease-in-out;
+    }
+    .WhatsappSilvina:hover{
+        transform:rotateY(180DEG);
+        transition: all 1s ease-in-out;
+    }
 
     .wrapper {
         padding: 10px 30px;
@@ -101,6 +114,7 @@
                 }
             }
         }
+      
     }
     &.active{
         background-color: $mainColor;
