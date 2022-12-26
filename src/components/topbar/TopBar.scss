@@ -11,6 +11,8 @@
     transition: all 1s ease;
     overflow-x: unset;
 
+ 
+
     a{
         text-decoration: none;
         color: white;
@@ -31,13 +33,16 @@
         width: auto;
         position: fixed;
         display: flex;
-        right: 0;
+        right: 15px;
         bottom: 0;
         transition: all 1s ease-in-out;
     }
     .WhatsappSilvina:hover{
-        transform:rotateY(180DEG);
+        transform: scale(1.1);
         transition: all 1s ease-in-out;
+        p{
+            opacity: 1;
+        }
     }
 
     .wrapper {
@@ -139,6 +144,36 @@
                     overflow: hidden;
                 }
             }
+        }
+    }
+    .WhatsappSilvinaContainer{
+        cursor: pointer;
+        p{
+            border: 5px crimson solid;
+            font-family: monospace;
+            font-weight: bolder;
+            text-align: center;
+            height: 60px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: white;
+            color: black;
+            margin-bottom: 50px;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            display: flex;
+            right: 20px;
+            bottom: 100px;
+            opacity: 0;
+            cursor: pointer;
+            transition: all 1s ease-in-out;
+        }
+    }
+    .WhatsappSilvinaContainer:hover{
+        p{
+            opacity: 1;
+            
         }
     }
 }

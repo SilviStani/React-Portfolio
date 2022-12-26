@@ -43,7 +43,7 @@ export default function portfolio() {
                 {data.map((d)=>(
                     <div className="item" key={d.id}>
                     <img src = {d.img}
-                     alt={d.alt} className="img-portfolio"/>
+                     alt={d.alt} className="img-portfolio" title={d.title}/>
                     </div>
               ))} 
             </div>

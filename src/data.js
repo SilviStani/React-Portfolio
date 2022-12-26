@@ -2,7 +2,7 @@
 export const bootcamp = [
   {
     id: 1,
-    title: "TodoList: Vacation",
+    title: "TodoList: Vacaciones.",
     desc: "A simple todo list, all vanilla javascript. You can see the code by clicking the link",
     web: "",
     img:
@@ -12,7 +12,7 @@ export const bootcamp = [
   },
   {
     id: 2,
-    title: "Chronometer",
+    title: "Cronómetro",
     web: "",
     img:
       "https://user-images.githubusercontent.com/90510746/148205845-1f650bfd-15ad-433c-839d-962786b50e83.png",
@@ -22,7 +22,7 @@ export const bootcamp = [
   
   {
     id: 3,
-    title: "Food*HenryApp",
+    title: "Recipers Site, Sitio de Recetas",
     web: "",
     img:
       "https://user-images.githubusercontent.com/90510746/155239699-a0ab095e-cfb3-4a32-8756-e1f3b9e4d948.jpg",
@@ -31,7 +31,7 @@ export const bootcamp = [
   },
   {
     id: 4,
-    title: "Portfolio",
+    title: "Portfolio Personal de Silvina Staniszewski",
     web: "https://react-portfolio-omega-sooty.vercel.app/",
     img:
     "https://user-images.githubusercontent.com/90510746/155241489-2df2e29a-f32d-4046-8551-df69e2a9cb32.jpg",
@@ -40,7 +40,7 @@ export const bootcamp = [
   },
   {
     id: 5,
-    title: "VIPets",
+    title: "VIPets, WebApp de Emergencias Veterinarias",
     web: "https://vipets.vercel.app/",
     img:
     "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
@@ -49,7 +49,7 @@ export const bootcamp = [
   },
   {
     id: 6,
-    title: "Estetyczna Nadja Szewska",
+    title: "Estetyczna Nadja Szewska, WebApp de Estética Corporal",
     web: "https://estetyczna-nadja-szewska.vercel.app/",
     img: "/assets/introPage.jpg",
     alt: "Página de Estética y Masajes",
@@ -57,7 +57,7 @@ export const bootcamp = [
   },
   {
     id: 7,
-    title: "Delicias y Manjares",
+    title: "Delicias y Manjares, Pastelería y Panadería de Calidad",
     web: "https://deliciasymanjares.vercel.app/",
     img: "/assets/3.jpg",
     alt: "Página de marca personal, panadeía artesanal. Alfajores y Bombones. Tortas y Tartas.",
@@ -65,7 +65,7 @@ export const bootcamp = [
   },
   {
     id: 8,
-    title: "Cabañas Mirsú",
+    title: "Cabañas Mirsú, Alquileres Temporales en Villa General Belgrano",
     web: "https://cabanasmirsu.vercel.app",
     img: "/assets/Cabanias-mirsu.png",
     alt: "Página de alquiler de Cabañas en Villa General Belgrano, Córdoba",

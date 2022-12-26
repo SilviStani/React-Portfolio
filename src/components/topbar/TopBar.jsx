@@ -46,8 +46,12 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                     </div>
                 </div>
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0" target="blank"><img className="WhatsappSilvina" src="./assets/contact_me.png" alt="WhatsApp Silvina" /></a>
-           
+            <div className="WhatsappSilvinaContainer">
+            <p > ¿Más info? <br/>¡Envíame Whatsapp!</p>
+            <a href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0" 
+            target="blank"><img className="WhatsappSilvina" src="./assets/contact_me.png" 
+            alt="WhatsApp Silvina Staniszewski. Click aquí para enviar mensaje" /></a>  
+            </div>
         </div>
     )
 }
