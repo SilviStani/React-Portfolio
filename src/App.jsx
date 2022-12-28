@@ -3,7 +3,7 @@ import Menu from "./components/menu/menu";
 import Intro from "./components/intro/intro";
 import Portfolio from "./components/portfolio/portfolio";
 import Works from "./components/works/works";
-//import Details from "./components/details/details";
+import AboutMe from "./components/Aboutme/AboutMe";
 //import Testimonials from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
 import "./app.scss";
@@ -20,6 +20,7 @@ function App() {
      <div className="sections">
        <Intro/>
        <Works/>
+       <AboutMe/>
        <Portfolio/>
        <Contact/>
      </div>

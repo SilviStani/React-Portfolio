@@ -1,4 +1,61 @@
-.testimonials {
-    background-color: lightcoral;
+.AboutMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    overflow: hidden;
+    flex-direction: column;
+}
+.ho{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.border{
+    border: 3px black solid;
+    display: flex;  
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.ContainerB{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    overflow: hidden;
     
+}
+
+.itemB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 450px;
+    width: 300px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+}
+.bitmojis{
+    height: fit-content;
+    width: 250px;
+    filter: drop-shadow(10px 5px black);
+}
+
+.desc{
+    background-color: white ;
+    padding: 10px;
+    border-radius: 20px;
+    border: black 3px solid;
+}
+
+.h2{
+    
+    text-align: center;
+}
+
+.h1{
+    color: black;
+   text-shadow: 2px 2px white;
 }

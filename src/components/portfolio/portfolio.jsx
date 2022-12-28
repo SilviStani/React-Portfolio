@@ -39,7 +39,7 @@ export default function portfolio() {
                        />
                    ))}
             </ul>
-            <div className="container">
+            <div className="container" >
                 {data.map((d)=>(
                     <div className="item" key={d.id}>
                     <img src = {d.img}
