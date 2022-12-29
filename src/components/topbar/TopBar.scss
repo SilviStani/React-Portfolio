@@ -178,6 +178,9 @@
         p{
             opacity: 1;
             
+            @include mobile{
+                display: none;
+            }
         }
     }
 }

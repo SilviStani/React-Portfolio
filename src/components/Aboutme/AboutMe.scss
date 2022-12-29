@@ -113,20 +113,43 @@
 @media screen and (max-width: 1100px) {
     .h1{
         font-size: 30px;
+        @include mobile{
+    font-size: 30px;
+   }
     }
     .h2{
         font-size: 20px;
+        @include mobile{
+            font-size: 10px;
+        }
     }
     .p{
         font-size: 15px;
+        @include mobile{
+            display: none;
+        }
     }
     .border{
         height: 400px;
     }
     .ContainerB{
         height: fit-content;
+        @include mobile{
+            width: 200px;
+            height: 100px;
+        }
     }
     .itemB{
         height: fit-content ;
+        @include mobile{
+            height: fit-content;
+            width: 100px;
+        }
+    }
+    .bitmojis{
+        @include mobile{
+            height: 100px;
+            filter: none;
+        }
     }
  }
