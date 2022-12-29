@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function AboutMe() {
     return (
-        <div className="AboutMe">
+        <div className="AboutMe" id="QuienSoy">
             <h1 className="h1">¿Quién Soy?</h1>
         <div className="ho" id="My_Life">
             <div className="border">
@@ -16,7 +16,7 @@ export default function AboutMe() {
                         <h2 className="h2">
                             {i.title}
                         </h2>
-                        <p> <br />
+                        <p className="p"> <br />
                             {i.desc}
                         </p>
                       </div>

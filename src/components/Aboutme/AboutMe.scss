@@ -1,30 +1,56 @@
+@import "../../global.scss";
+
 .AboutMe {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color:crimson;
     overflow: hidden;
     flex-direction: column;
+    justify-content: space-around;
 }
+
 .ho{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 100px;
+    justify-content: space-around;
 }
 .border{
     border: 3px black solid;
     display: flex;  
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+    padding: 5px;
+    @include mobile{
+        display: flex;
+        border-radius: 20px;
+        padding: 5px;
+        flex-direction: column;
+        position: relative;
+        height: 400px;
+        width: 90%;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-between;
+    }
 }
 .ContainerB{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    overflow: hidden;
+   width: 100%;
+   display: flex;
+   padding: 5px;
+   overflow: hidden;
+   cursor: pointer;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   position: relative;
     
+    @include mobile{
+        width: 200px;
+        height: 100px;
+    }
 }
 
 .itemB{
@@ -36,11 +62,20 @@
     cursor: pointer;
     transition: all 1s ease-in-out;
     overflow: hidden;
+    @include mobile{
+        height: fit-content;
+        width: 100px;
+    }
 }
 .bitmojis{
     height: fit-content;
     width: 250px;
     filter: drop-shadow(10px 5px black);
+    justify-content: space-around;
+    @include mobile{
+        height: 100px;
+        filter: none;
+    }
 }
 
 .desc{
@@ -48,14 +83,50 @@
     padding: 10px;
     border-radius: 20px;
     border: black 3px solid;
+    @include mobile{
+        padding: 1px;
+        border: black 1px solid;
+        width: 100px;
+    }
 }
 
 .h2{
-    
     text-align: center;
+    @include mobile{
+        font-size: 10px;
+    }
 }
 
 .h1{
     color: black;
    text-shadow: 2px 2px white;
+   @include mobile{
+    font-size: 30px;
+   }
 }
+.p{
+ @include mobile{
+     display: none;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+    .h1{
+        font-size: 30px;
+    }
+    .h2{
+        font-size: 20px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .border{
+        height: 400px;
+    }
+    .ContainerB{
+        height: fit-content;
+    }
+    .itemB{
+        height: fit-content ;
+    }
+ }

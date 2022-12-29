@@ -36,6 +36,10 @@
         right: 15px;
         bottom: 0;
         transition: all 1s ease-in-out;
+        @include mobile {
+            height: 120px;
+            width: auto;
+        }
     }
     .WhatsappSilvina:hover{
         transform: scale(1.1);

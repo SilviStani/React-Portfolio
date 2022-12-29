@@ -14,8 +14,8 @@ export default function intro() {
             typeSpeed:  150,
             backDelay: 1000,
             backSpeed: 100,
-            strings: [" Automation Tester", " Selenium"," C#", " Web Developer",
-             " Javascript", "Front: Next.Js", "Front: React", " Back: Node.Js", "Back: Express.Js"],
+            strings: [" Automation Tester", " Selenium", " Web Developer",
+             " Javascript & C#", "Front: Next.Js", "Front: React", " Back: Node.Js", "Back: Express.Js"],
 
         });
     },[]);
@@ -31,7 +31,7 @@ export default function intro() {
                     <h2>Hola! Soy</h2>
                     <h1>Silvina Staniszewski</h1>
                     <h3>* QE Testing Automation</h3>
-                    <h3>* Javascript Full Stack Developer <span ref={textRef} ></span> </h3>
+                    <h3>* Javascript Full Stack Developer <br /> <span ref={textRef} ></span> </h3>
                 </div>
                 <a href="#portfolio">
                     <img src="assets/down.png" alt="" />

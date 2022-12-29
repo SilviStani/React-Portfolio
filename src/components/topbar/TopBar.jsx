@@ -30,11 +30,14 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                       <a download href="assets/Resume.pdf" target="blank">
-                        <button class="download-cv">/Download CV/</button>
+                        <button class="download-cv">/Descarga mi CV/</button>
                       </a>
                     </div>
                     <div className="itemContainer">
-                        <a href="#contact" class="download-cv">/Contact/</a>
+                        <a href="#QuienSoy" class="download-cv">/ Yo!/</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="#contact" class="download-cv">/Contáctame/</a>
                     </div>
                 </div>
 

@@ -37,6 +37,9 @@ body{
         img {
             height: 100%;
         }
+        @include mobile{
+            display: none;
+        }
     }
 
     .right{

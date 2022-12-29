@@ -81,7 +81,7 @@ export default function Works() {
 
     return (
       <div className='works' id="works">
-        <h1>Works & Projects</h1>
+        <h1>Proyectos y Trabajos</h1>
             <div className="slider" 
             style={{transform:`translateX(-${currenteSlider *100}vw)`}}>
                 {data.map((d) =>(
@@ -95,7 +95,7 @@ export default function Works() {
                         <div className="leftContainer">
                           <h2>{d.title}</h2>
                           <p>{d.desc}</p>
-                            <span><a href={d.src} className="a" target="_blank" rel="noreferrer">Github Code</a></span>
+                            <span><a href={d.src} className="a" target="_blank" rel="noreferrer">Código Github</a></span>
                               {
                                 d.web ?
                                 <span><a href={d.web} className="a" target="_blank" rel="noreferrer">Web Link</a></span> 

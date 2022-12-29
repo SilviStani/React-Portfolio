@@ -11,7 +11,7 @@ export default function portfolio() {
     const list = [
         {
             id: "bootcamp",
-            title: "Pic Gallery",
+            title: "Galeria de Fotos",
           }
         ];
 

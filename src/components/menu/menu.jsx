@@ -13,15 +13,15 @@ export default function menu({menuOpen, setMenuOpen}) {
                 </li>
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#works">Works</a>
+                    <a href="#works">Trabajos</a>
                 </li>
 
-                {/*<li onClick={()=>setMenuOpen(false)}>
-                    <a href="#testimonials">Testimonial</a>
-    </li> */}
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#QuienSoy">¿Quién Soy?</a>
+                </li> 
 
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#contact">Contact && Download CV</a>
+                    <a href="#contact">Contáctame & Descarga CV</a>
                 </li>
 
             </ul>

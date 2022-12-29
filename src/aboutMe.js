@@ -31,7 +31,7 @@ export const aboutMe = [
         id: 5,
         title: "Soy Tester",
         desc: "Tuve la Bendición y la oportunidad de conseguir un buen trabajo como Tester Automation & Manual",
-        img: "/assets/tester.png",
+        img: "/assets/Tester.png",
         alt: "Silvina estudiando para ser Full Stack.",
       },
       {
