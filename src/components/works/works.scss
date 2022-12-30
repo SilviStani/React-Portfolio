@@ -177,6 +177,9 @@
             height: 40px;
             position: absolute;
             cursor: pointer;
+            @include mobile{
+                height: 15px;           
+            }
     
             &.left{
                 left: 50px;
