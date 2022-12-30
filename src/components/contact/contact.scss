@@ -36,6 +36,11 @@ body{
 
         img {
             height: 100%;
+            transition: all 1.5s ease-in-out;
+        }
+        img:hover{
+            transition: all 1.5s ease-in-out;
+            transform: rotate(360deg);
         }
         @include mobile{
             display: none;
