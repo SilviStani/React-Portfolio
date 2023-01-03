@@ -38,10 +38,7 @@ body{
             height: 100%;
             transition: all 1.5s ease-in-out;
         }
-        img:hover{
-            transition: all 1.5s ease-in-out;
-            transform: rotate(360deg);
-        }
+    
         @include mobile{
             display: none;
         }
@@ -105,18 +102,18 @@ body{
 
             .button {
                 width: 150px;
-                height: 30px;
+                height: 40px;
                 color: whitesmoke;
                 background-color: crimson;
                 border: none;
                 border-radius: 10px;
+                transition: all 1s ease-in-out;
+                cursor: pointer;
             }
 
                 .button:hover{
-                    cursor: pointer;
-                    background-color: black;
-                    color: crimson;
-                    transition: all 1s ease;
+                    transform: scale(1.1);
+                    transition: all 1s ease-in-out;
                 }
 
                 span {

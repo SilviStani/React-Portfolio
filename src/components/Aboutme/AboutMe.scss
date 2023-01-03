@@ -46,10 +46,10 @@
    justify-content: center;
    padding: 10px;
    position: relative;
-    
-    @include mobile{
-        width: 200px;
-        height: 100px;
+   
+   @include mobile{
+       width: 200px;
+       height: 100px;
     }
 }
 
@@ -59,9 +59,8 @@
     justify-content: center;
     height: 450px;
     width: 300px;
-    cursor: pointer;
-    transition: all 1s ease-in-out;
     overflow: hidden;
+    
     @include mobile{
         height: fit-content;
         width: 100px;
@@ -69,13 +68,23 @@
 }
 .bitmojis{
     height: fit-content;
+    transition: all 1s ease-in-out;
     width: 250px;
     filter: drop-shadow(10px 5px black);
     justify-content: space-around;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
     @include mobile{
         height: 100px;
         filter: none;
     }
+}
+.bitmojis:hover{
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    transform: scale(1.05);
+    transition: all 1s ease-in-out;
 }
 
 .desc{
@@ -83,13 +92,13 @@
     padding: 10px;
     border-radius: 20px;
     border: black 3px solid;
+
     @include mobile{
         padding: 1px;
         border: black 1px solid;
         width: 100px;
     }
 }
-
 .h2{
     text-align: center;
     @include mobile{

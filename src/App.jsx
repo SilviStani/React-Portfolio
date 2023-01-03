@@ -1,29 +1,19 @@
-import TopBar from './components/topbar/TopBar';
-import Menu from "./components/menu/menu";
-import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/portfolio";
-import Works from "./components/works/works";
-import AboutMe from "./components/Aboutme/AboutMe";
-//import Testimonials from "./components/testimonials/testimonials";
-import Contact from "./components/contact/contact";
+import IntroComp from './components/IntroComp/IntroComp';
+import Portfolio from './components/portfolio/portfolio';
 import "./app.scss";
-import { useState } from 'react';
-//import Footer from './components/Footer/Footer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  
   return (
     <div className="app">
-     <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      {/*<Footer />*/}
-     <div className="sections">
-       <Intro/>
-       <Works/>
-       <AboutMe/>
-       <Portfolio/>
-       <Contact/>
-     </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element = {<IntroComp/>} />
+        <Route path='/portfolio' element = {<Portfolio/>}/>
+      </Routes> 
+      </BrowserRouter>
+     
     </div>
   );
 }
