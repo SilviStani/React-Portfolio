@@ -6,6 +6,38 @@ export default function Works() {
     const [currenteSlider, setCurrentSlider] = useState(0);
 
     const data = [
+      {
+        id: 3,
+        title: "Portfolio",
+        web: "react-portfolio-silvistani.vercel.app",
+        img:"https://user-images.githubusercontent.com/90510746/206809662-801fbf30-7ab4-48f7-bb2d-e39e84cdb0e7.png",
+          src:" https://github.com/SilviStani/React-Portfolio",
+          desc:"Pequeña descripción de mis trabajos y mis pasiones."
+      },
+      {
+        id: 6,
+        title: "Estetyczna Nadja Szewska",
+        web: "https://estetyczna-nadja-szewska.vercel.app/",
+        img: "/assets/introPage.jpg",
+        src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
+        desc: "SPA de Estética corporal y facial. Servicio de belleza integral."
+      },
+      {
+        id: 7,
+        title: "Delicias y Manjares",
+        web: "https://deliciasymanjares.vercel.app/",
+        img: "/assets/3.jpg",
+        src:"https://github.com/SilviStani/deliciasymanjares",
+        desc: "Las delicias mas exquisitas y frescas de todo Escobar. No dudes en probar :)"
+      },
+      {
+        id: 8,
+        title: "Cabañas Mirsú",
+        web: "https://cabanasmirsu.vercel.app",
+        img: "/assets/Cabanias-mirsu.png",
+        src:"https://github.com/SilviStani/cabanias_mirsu",
+        desc: "Cabañas en Villa General Belgrano. Mapa de ubicación, links a sitios de interés, sitios de necesidad."
+      },
           {
             id: 1,
             title: "VIPets",
@@ -23,14 +55,6 @@ export default function Works() {
             desc: "SPA creada como Proyecto individual, en la etapa final de 'Soy Henry Academy'. Aqui es donde aplicamos las skills que hemos aprendido en el bootcamp"
           },
           {
-            id: 3,
-            title: "Portfolio",
-            web: "react-portfolio-silvistani.vercel.app",
-            img:"https://user-images.githubusercontent.com/90510746/206809662-801fbf30-7ab4-48f7-bb2d-e39e84cdb0e7.png",
-              src:" https://github.com/SilviStani/React-Portfolio",
-              desc:"Pequeña descripción de mis trabajos y mis pasiones."
-          },
-          {
             id: 4,
             title: "Chronometer",
             img:
@@ -46,31 +70,8 @@ export default function Works() {
             "https://user-images.githubusercontent.com/90510746/148145113-25ef5a46-17d7-4c5f-b9e0-07716ffc0b02.png",
             src:"https://github.com/SilviStani/Vacation-TodoList",
             desc: "Una Todo list creada a puro vanilla javascript. Sus efectos y estilos en Css."
-          },
-          {
-            id: 6,
-            title: "Estetyczna Nadja Szewska",
-            web: "https://estetyczna-nadja-szewska.vercel.app/",
-            img: "/assets/introPage.jpg",
-            src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
-            desc: "SPA de Estética corporal y facial. Servicio de belleza integral."
-          },
-          {
-            id: 7,
-            title: "Delicias y Manjares",
-            web: "https://deliciasymanjares.vercel.app/",
-            img: "/assets/3.jpg",
-            src:"https://github.com/SilviStani/deliciasymanjares",
-            desc: "Las delicias mas exquisitas y frescas de todo Escobar. No dudes en probar :)"
-          },
-          {
-            id: 8,
-            title: "Cabañas Mirsú",
-            web: "https://cabanasmirsu.vercel.app",
-            img: "/assets/Cabanias-mirsu.png",
-            src:"https://github.com/SilviStani/cabanias_mirsu",
-            desc: "Cabañas en Villa General Belgrano. Mapa de ubicación, links a sitios de interés, sitios de necesidad."
           }
+         
     ]
 
     const handleClick = (way) => {
@@ -95,7 +96,7 @@ export default function Works() {
                         <div className="leftContainer">
                           <h2>{d.title}</h2>
                           <p>{d.desc}</p>
-                            <span><a href={d.src} className="a" target="_blank" rel="noreferrer">Código Github</a></span>
+                            <span><a href={d.src} className=" a" target="_blank" rel="noreferrer">Código Github</a></span>
                               {
                                 d.web ?
                                 <span><a href={d.web} className="a" target="_blank" rel="noreferrer">Web Link</a></span> 

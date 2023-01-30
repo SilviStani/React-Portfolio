@@ -1,5 +1,4 @@
 @import "../../global.scss";
-
 .AboutMe {
     display: flex;
     align-items: center;
@@ -11,11 +10,12 @@
 
 .ho{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     margin-bottom: 100px;
     justify-content: space-around;
 }
+
 .border{
     border: 3px black solid;
     display: flex;  
@@ -66,6 +66,27 @@
         width: 100px;
     }
 }
+.itemB:hover{
+    .bitmojis{
+      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+      opacity: 0.5;
+      filter: blur(2px);
+      transition: all 1s ease;
+    }
+ 
+    .desc{
+      opacity: 1;
+      filter: opacity(1);
+      transition: all 1s ease;
+      filter:blur();
+      @include mobile{
+          padding: 1px;
+          border: black 1px solid;
+          width: 100px;
+      }
+    }
+}
+
 .bitmojis{
     height: fit-content;
     transition: all 1s ease-in-out;
@@ -81,49 +102,48 @@
         filter: none;
     }
 }
-.bitmojis:hover{
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
-    transform: scale(1.05);
-    transition: all 1s ease-in-out;
-}
 
 .desc{
     background-color: white ;
     padding: 10px;
     border-radius: 20px;
     border: black 3px solid;
-
-    @include mobile{
-        padding: 1px;
-        border: black 1px solid;
-        width: 100px;
-    }
+    opacity: 0.5;
+    filter: blur(2px);
 }
+
 .h2{
     text-align: center;
-    @include mobile{
-        font-size: 10px;
-    }
+    font-family: cursive;
+      @include mobile{
+          font-size: 10px;
+      }
 }
 
 .h1{
+    font-family: cursive;
     color: black;
-   text-shadow: 2px 2px white;
-   @include mobile{
-    font-size: 30px;
+    text-shadow: 2px 2px white;
+      @include mobile{
+      font-size: 30px;
    }
 }
 .p{
+    font-family: cursive;
  @include mobile{
      display: none;
  }
 }
 
 @media screen and (max-width: 1100px) {
+    .desc{
+        opacity: 1;
+        filter: opacity(1);
+    }
     .h1{
         font-size: 30px;
         @include mobile{
-    font-size: 30px;
+        font-size: 30px;
    }
     }
     .h2{
@@ -144,8 +164,8 @@
     .ContainerB{
         height: fit-content;
         @include mobile{
-            width: 200px;
-            height: 100px;
+            width: fit-content;
+            height: fit-content;
         }
     }
     .itemB{

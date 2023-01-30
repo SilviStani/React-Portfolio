@@ -1,7 +1,7 @@
 
 export const bootcamp = [
   {
-    id: 4,
+    id: 1,
     title: "Portfolio Personal de Silvina Staniszewski",
     web: "https://react-portfolio-omega-sooty.vercel.app/",
     img: "/assets/PortadaPortfolio.png",
@@ -9,7 +9,7 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/React-Portfolio",
   },
   {
-    id: 5,
+    id: 2,
     title: "VIPets, WebApp de Emergencias Veterinarias",
     web: "https://vipets.vercel.app/",
     img:
@@ -18,7 +18,7 @@ export const bootcamp = [
     src:"https://github.com/Navito-py/PF-PuppyPalace",
   },
   {
-    id: 6,
+    id: 3,
     title: "Estetyczna Nadja Szewska, WebApp de Estética Corporal",
     web: "https://estetyczna-nadja-szewska.vercel.app/",
     img: "/assets/introPage.jpg",
@@ -26,7 +26,7 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/Estetyczna-Nadja-Szewska",
   },
   {
-    id: 7,
+    id: 4,
     title: "Delicias y Manjares, Pastelería y Panadería de Calidad",
     web: "https://deliciasymanjares.vercel.app/",
     img: "/assets/3.jpg",
@@ -34,7 +34,7 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/deliciasymanjares",
   },
   {
-    id: 8,
+    id: 5,
     title: "Cabañas Mirsú, Alquileres Temporales en Villa General Belgrano",
     web: "https://cabanasmirsu.vercel.app",
     img: "/assets/Cabanias-mirsu.png",
@@ -42,7 +42,7 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/cabanias_mirsu",
   },
   {
-    id: 1,
+    id: 6,
     title: "TodoList: Vacaciones.",
     desc: "A simple todo list, all vanilla javascript. You can see the code by clicking the link",
     web: "",
@@ -52,7 +52,7 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/Vacation-TodoList",
   },
   {
-    id: 2,
+    id: 7,
     title: "Cronómetro",
     web: "",
     img:
@@ -61,7 +61,7 @@ export const bootcamp = [
     src: "https://github.com/SilviStani/Chronometer-Countdown-Timer",
   },
   {
-    id: 3,
+    id: 8,
     title: "Recipers Site, Sitio de Recetas",
     web: "",
     img:

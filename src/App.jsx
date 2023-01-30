@@ -1,5 +1,5 @@
 import IntroComp from './components/IntroComp/IntroComp';
-import Portfolio from './components/portfolio/portfolio';
+import Trivia from './components/Trivia/Trivia.jsx';
 import "./app.scss";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element = {<IntroComp/>} />
-        <Route path='/portfolio' element = {<Portfolio/>}/>
+        <Route path='/trivia' element = {<Trivia/>}/>
       </Routes> 
       </BrowserRouter>
      
