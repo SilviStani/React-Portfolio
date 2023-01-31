@@ -5,6 +5,7 @@ import Portfolio from "../portfolio/portfolio";
 import Works from "../works/works";
 import AboutMe from "../Aboutme/AboutMe";
 import Contact from "../contact/contact";
+import TechSkills from "../TechSkills/TechSkill";
 import "../../app.scss";
 import { useState } from 'react';
 
@@ -19,6 +20,7 @@ function IntroComp() {
       <Intro/>
       <Works/>
       <AboutMe/>
+      <TechSkills/>
       <Contact/>
     </div>
    </div>
