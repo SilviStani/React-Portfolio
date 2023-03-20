@@ -7,14 +7,6 @@ export default function menu({menuOpen, setMenuOpen}) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#intro">Home</a>
                 </li>
-                
-                <li onClick={()=>setMenuOpen(false)}>
-                    <a href="/trivia">Trivia</a>
-                </li>
-
-                {/* <li onClick={()=>setMenuOpen(false)}>
-                    <a href="/portfolio">Portfolio</a>
-                </li> */}
 
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#works">Trabajos</a>
@@ -22,7 +14,15 @@ export default function menu({menuOpen, setMenuOpen}) {
 
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#QuienSoy">¿Quién Soy?</a>
+                </li>
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#techskills">Tech Skills</a>
                 </li> 
+
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="/trivia">Trivia</a>
+                </li>
 
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contáctame & Descarga CV</a>

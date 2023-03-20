@@ -3,7 +3,7 @@ import {techSkill} from "./techskills.js";
 
 export default function TechSkills() {
     return (
-        <div className='introSkills'id="intro" >
+        <div className='introSkills' id="techskills" >
             <div className="rightSkills">
                     <h3 className="h3">Tech Skills</h3>
                 <div className="wrapperSkill">
@@ -13,12 +13,13 @@ export default function TechSkills() {
                             <img src={i.img} alt={i.alt} 
                             className="imagenesSkills"
                             id={i.id} title={i.title} />
-                            <p className="p">{i.title}</p>
+                            {/*<p className="p">{i.title}</p>*/}
+                            <h5 className="h5p">{i.title}</h5>
                         </div>    
                         )
                     }
                 </div>
-                <div className="wrapperSkill">
+               {/* <div className="wrapperSkill">
                     {
                         techSkill.map((i) =>
                         <div className="spaceSkills2" key={i.id}>
@@ -26,7 +27,7 @@ export default function TechSkills() {
                         </div>    
                         )
                     }
-                </div>
+                </div>*/}
             </div>
             <div className="left">
                 <div className="imgContainerSkills">

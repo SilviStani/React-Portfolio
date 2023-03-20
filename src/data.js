@@ -1,4 +1,3 @@
-
 export const bootcamp = [
   {
     id: 1,
@@ -9,11 +8,18 @@ export const bootcamp = [
     src:"https://github.com/SilviStani/React-Portfolio",
   },
   {
+    id: 9,
+    title: "Walter Tapizados",
+    web: "https://limpieza-tapizados-walter.vercel.app/",
+    img: "/assets/Walter-tapizados.png",
+    alt: "Web limpieza de tapizados en Chaco y Corrientes",
+    src:"https://github.com/SilviStani/Limpieza-Tapizados-Walter",
+  },
+  {
     id: 2,
     title: "VIPets, WebApp de Emergencias Veterinarias",
     web: "https://vipets.vercel.app/",
-    img:
-    "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
+    img: "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
     alt: "Pagina de Mascotas perdidas y Emergencias Médicas",
     src:"https://github.com/Navito-py/PF-PuppyPalace",
   },
@@ -63,7 +69,7 @@ export const bootcamp = [
   {
     id: 8,
     title: "Recipers Site, Sitio de Recetas",
-    web: "",
+    web: "https://limpieza-tapizados-walter.vercel.app/",
     img:
       "https://user-images.githubusercontent.com/90510746/155239699-a0ab095e-cfb3-4a32-8756-e1f3b9e4d948.jpg",
     alt: "Web de recetas y creación de contenido gastronómico",
