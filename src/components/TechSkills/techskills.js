@@ -20,7 +20,7 @@ export const techSkill = [
     {
         id:3,
         title: "Css",
-        img: "assets/css.png",
+        img: "assets/CSS_Imagen.png",
         alt: "Css"
     },
     {
