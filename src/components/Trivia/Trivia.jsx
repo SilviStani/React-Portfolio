@@ -7,7 +7,7 @@ import Preguntas from './Preguntas';
 const Trivia = () => {
 const [questionNumber, setQuestionNumber] = useState(1);
   return (
-    <div className='appTrivia'>
+    <div className='appTrivia' id='trivia'>
     <div className="main">
      <div className="top">
     <a href="/" className="logo"><img src="/assets/inicio.png" alt="" height={80} width={80} /></a>

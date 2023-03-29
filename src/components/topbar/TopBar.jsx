@@ -37,6 +37,12 @@ export default function TopBar({ menuOpen, setMenuOpen}) {
                         <a href="#QuienSoy" class="download-cv">/ Yo!/</a>
                     </div>
                     <div className="itemContainer">
+                        <a href="#techskills" class="download-cv">/Tech-Skills/</a>
+                    </div>
+                    <div className="itemContainer">
+                        <a href="/trivia" class="download-cv">/Trivia/</a>
+                    </div>
+                    <div className="itemContainer">
                         <a href="#contact" class="download-cv">/Contáctame/</a>
                     </div>
                 </div>

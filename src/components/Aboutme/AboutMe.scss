@@ -15,6 +15,9 @@
     margin-bottom: 100px;
     justify-content: space-around;
 }
+.spanMi{
+    font-size: 20px;
+}
 
 .border{
     border: 3px black solid;
@@ -122,8 +125,7 @@
 
 .h1{
     font-family: cursive;
-    color: black;
-    text-shadow: 2px 2px white;
+    color: white;
       @include mobile{
       font-size: 30px;
    }
@@ -136,6 +138,9 @@
 }
 
 @media screen and (max-width: 1100px) {
+    .spanMi{
+        display: none;
+    }
     .desc{
         opacity: 1;
         filter: opacity(1);
