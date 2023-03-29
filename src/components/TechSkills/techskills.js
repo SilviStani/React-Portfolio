@@ -12,6 +12,12 @@ export const techSkill = [
         alt: "C#"
     },
     {
+        id:10,
+        title: "404. Not Working. Or yes? Go next tech skill, this one is not good for me. :)",
+        img: "",
+        alt: ""
+    },
+    {
         id:3,
         title: "Css",
         img: "assets/css.png",
