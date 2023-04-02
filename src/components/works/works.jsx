@@ -6,7 +6,15 @@ export default function Works() {
 
   const data = [
     {
-      id: 3,
+      id: 1,
+      title: "Silandra Alta Costura",
+      web: "https://silandra.vercel.app/",
+      img: "/assets/silandra.jpeg",
+      src: "https://github.com/SilviStani/Silandra",
+      desc: "Responsive Web app para Casa de Alta Costura.",
+    },
+    {
+      id: 2,
       title: "Portfolio",
       web: "react-portfolio-silvistani.vercel.app",
       img: "https://user-images.githubusercontent.com/90510746/206809662-801fbf30-7ab4-48f7-bb2d-e39e84cdb0e7.png",
@@ -14,7 +22,7 @@ export default function Works() {
       desc: "Pequeña descripción de mis trabajos y mis pasiones.",
     },
     {
-      id: 9,
+      id: 3,
       title: "Walter Tapizados",
       web: "https://limpieza-tapizados-walter.vercel.app/",
       img: "/assets/Walter-tapizados.png",
@@ -22,7 +30,7 @@ export default function Works() {
       src:"https://github.com/SilviStani/Limpieza-Tapizados-Walter",
     },
     {
-      id: 6,
+      id: 4,
       title: "Estetyczna Nadja Szewska",
       web: "https://estetyczna-nadja-szewska.vercel.app/",
       img: "/assets/introPage.jpg",
@@ -30,7 +38,7 @@ export default function Works() {
       desc: "SPA de Estética corporal y facial. Servicio de belleza integral.",
     },
     {
-      id: 7,
+      id: 5,
       title: "Delicias y Manjares",
       web: "https://deliciasymanjares.vercel.app/",
       img: "/assets/3.jpg",
@@ -38,7 +46,7 @@ export default function Works() {
       desc: "Las delicias mas exquisitas y frescas de todo Escobar. No dudes en probar :)",
     },
     {
-      id: 8,
+      id: 6,
       title: "Cabañas Mirsú",
       web: "https://cabanasmirsu.vercel.app",
       img: "/assets/Cabanias-mirsu.png",
@@ -46,21 +54,21 @@ export default function Works() {
       desc: "Cabañas en Villa General Belgrano. Mapa de ubicación, links a sitios de interés, sitios de necesidad.",
     },
     {
-      id: 1,
+      id: 7,
       title: "VIPets",
       img: "https://user-images.githubusercontent.com/90510746/160607183-5527d9ec-bacf-458f-a48c-d89459f00a81.png",
       src: "https://github.com/Navito-py/PF-PuppyPalace",
       desc: "Spa Exclusivamente pensada en nuestras queridas mascotas. Vipets ofrece un acceso rápido a las clinicas 24 hs.",
     },
     {
-      id: 2,
+      id: 8,
       title: "Food*HenryApp",
       img: "https://user-images.githubusercontent.com/90510746/155239699-a0ab095e-cfb3-4a32-8756-e1f3b9e4d948.jpg",
       src: "https://github.com/SilviStani/Pi-Food",
       desc: "SPA creada como Proyecto individual, en la etapa final de 'Soy Henry Academy'. Aqui es donde aplicamos las skills que hemos aprendido en el bootcamp",
     },
     {
-      id: 4,
+      id: 9,
       title: "Chronometer",
       img: "https://user-images.githubusercontent.com/90510746/148205845-1f650bfd-15ad-433c-839d-962786b50e83.png",
       src: "https://github.com/SilviStani/Chronometer-Countdown-Timer",
@@ -68,7 +76,7 @@ export default function Works() {
     },
 
     {
-      id: 5,
+      id: 10,
       title: "TodoList: Vacation",
       img: "https://user-images.githubusercontent.com/90510746/148145113-25ef5a46-17d7-4c5f-b9e0-07716ffc0b02.png",
       src: "https://github.com/SilviStani/Vacation-TodoList",
