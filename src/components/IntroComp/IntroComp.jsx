@@ -1,7 +1,6 @@
 import TopBar from '../topbar/TopBar';
 import Menu from "../menu/menu";
 import Intro from "../intro/intro";
-import Portfolio from "../portfolio/portfolio";
 import Works from "../works/works";
 import AboutMe from "../Aboutme/AboutMe";
 import Contact from "../contact/contact";
