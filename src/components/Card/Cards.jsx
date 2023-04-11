@@ -1,9 +1,10 @@
 import React from "react";
 import "./Cards.scss";
 
-const Cards = ({ id, desc, img, alt, web, src }) => {
+const Cards = ({ id, desc, img, alt, web, src, title }) => {
   return (
     <div key={id} className="Cards">
+      <p className="tit">{title}</p>
       <img src={img} alt={alt} className="img" />
       <div className="textCard">
         {web ? (

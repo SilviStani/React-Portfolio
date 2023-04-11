@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .Cards {
   padding: 16px 32px;
   display: flex;
@@ -10,6 +11,9 @@
   width: 350px;
   margin: 30px;
   border: 2px solid black;
+  @include mobile {
+    padding: 8px 16px;
+  }
 
   .textCard {
     display: flex;
@@ -32,6 +36,9 @@
       .logo{
         margin-right: 5px;
       }
+      @include mobile {
+        font-size: 12px;
+      }
     }
     .btn:hover {
       transform: scale(1.05);
@@ -46,10 +53,27 @@
     }
   }
 
+  .tit{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    border: 1px white solid;
+    padding: 5px 8px;
+    text-align: center;
+  }
+
   .img {
     width: 380px;
     border-radius: 20px;
     border: 2px solid black;
     transition: all 1s ease-in-out;
+    @include mobile {
+      width: 100%;
+    }
   }
+}
+.Cards:hover{
+  transform: scale(1.1);
 }

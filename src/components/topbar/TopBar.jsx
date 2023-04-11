@@ -39,6 +39,16 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
               /Contáctame/
             </a>
           </div>
+          <div className="itemContainerTrivia">
+            <a href="/trivia" class="download-cv">
+              /Trivia/
+            </a>
+          </div>
+          <div className="itemContainerTrivia">
+            <a href="/galeria" class="download-cv">
+              /Galeria/
+            </a>
+          </div>
           <Sociales />
         </div>
 
