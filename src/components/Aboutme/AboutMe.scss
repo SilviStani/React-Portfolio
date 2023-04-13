@@ -1,13 +1,82 @@
 @import "../../global.scss";
 .AboutMe {
-    display: flex;
-    align-items: center;
-    background-color:crimson;
-    overflow: hidden;
-    flex-direction: column;
-    justify-content: space-around;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
 
+  .h1 {
+    padding: 10px;
+    overflow: hidden;
+    color: white;
+    font-family: monospace;
+    @include mobile{
+        font-size: 15px;
+    }
+  }
+
+  .Container {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @include mobile{
+        display: flex;
+        flex-direction: row;
+  }
+
+    .ContainerB {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 250px;
+      
+      @include mobile{
+          width: 200px;
+          height: 150px;
+    }
+
+      .bitmojis {
+        height: 150px;
+        @include mobile{
+            height: 100px;
+        }
+      }
+      .desc {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .p {
+            padding: 5px;
+            border: 1px white solid;
+            border-radius: 10px;
+            background-color:crimson;
+            height: 50px;
+            text-align: center;
+            align-items: center;
+            display: flex;
+        }
+        .h2,
+        .p {
+          font-size: 15px;
+          font-family: monospace;
+          margin-top: 5px;
+          z-index: 999;
+          @include mobile{
+            font-size: 12px;
+        }
+        }
+      }
+    }
+  }
+}
+/*
 .ho{
     display: flex;
     flex-wrap: nowrap;
@@ -187,3 +256,4 @@
         }
     }
  }
+ */

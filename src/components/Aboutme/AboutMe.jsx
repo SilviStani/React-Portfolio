@@ -1,46 +1,22 @@
 import "./AboutMe.scss";
-import {aboutMe} from '../../aboutMe.js';
-import { useState } from "react";
+import { aboutMe } from "../../aboutMe.js";
 
 export default function AboutMe() {
-    return (
-        <div className="AboutMe" id="QuienSoy">
-            <h1 className="h1">Yo! <span className="spanMi">(un poquito sobre mi)</span></h1>
-        <div className="ho" id="My_Life">
-           <div className="border">
-           { aboutMe.map((i) => (
-                <div className="ContainerB">
-                 {
-                    ((i.id) % 2 === 0) ?
-                    <div className="itemB" id={i.id}>
-                    <img src={i.img} alt={i.alt} className="bitmojis"/>
-                  <div className="desc">
-                    <h2 className="h2">
-                        {i.title}
-                    </h2>
-                    <p className="p"> <br />
-                        {i.desc}
-                    </p>
-                  </div>
-                </div>
-                :
-                <div className="itemB" id={i.id}>
-              <div className="desc">
-                <h2 className="h2">
-                    {i.title}
-                </h2>
-                <p className="p"> <br />
-                    {i.desc}
-                </p>
-              </div>
-                <img src={i.img} alt={i.alt} className="bitmojis"/>
-            </div>
-                 }
-                </div>
-              ))
-            }
-            </div>
-        </div>
-        </div>
-    )
+  return (
+    <div className="AboutMe" id="QuienSoy">
+      <h1 className="h1">Sobre Mi</h1>
+      <div className="Container" id="My_Life">
+        {aboutMe.map((i) => (
+          <div className="ContainerB">
+            <img src={i.img} alt={i.alt} className="bitmojis" />
+
+            <details className="desc">
+              <summary className="h2">{i.title}</summary>
+              <p className="p">{i.desc}</p>
+            </details>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
