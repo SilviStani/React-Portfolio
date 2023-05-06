@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: crimson;
+  background: linear-gradient(25deg, crimson, black);
 
   .h1 {
     padding: 10px;
@@ -43,9 +43,24 @@
 
       .bitmojis {
         height: 150px;
+        filter: drop-shadow(0 0 0.75rem black);
+        transition: all 1s ease-in-out;
         @include mobile {
           height: 100px;
         }
+      }
+      .bitmojis:hover{
+        animation: bitmoji normal 3s;
+      }
+      @keyframes bitmoji {
+        0% {opacity: 1;
+        transform: scale(1.1);}
+        25% {opacity: 0;}
+        50% {opacity: 1;
+          transform: scale(1.1);}
+        75% {opacity: 0;}
+        100% {opacity: 1;
+          transform: scale(1.1);}
       }
       .desc {
         text-align: center;
@@ -54,10 +69,11 @@
         align-items: center;
         color: white;
         .p {
+          overflow: hidden ;
           padding: 5px;
           border: 1px white solid;
           border-radius: 10px;
-          background-color: crimson;
+          background-color: rgb(177, 18, 50);
           height: 50px;
           text-align: center;
           align-items: center;

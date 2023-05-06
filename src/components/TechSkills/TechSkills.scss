@@ -78,12 +78,17 @@
                     align-items: center;
                 }
                 .imagenesSkills{
+                    transition: all 1s ease-in-out;
                     height: 130px;
                     border-radius: 50%;
                     border: 2px dotted black;
+                    opacity: 0.6;
                     @include mobile {
                         height: 90px;
                     }
+                }
+                .imagenesSkills:hover{
+                    opacity: 1;
                 }
                 .h5p{
                     color: white;
