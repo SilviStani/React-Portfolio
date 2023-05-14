@@ -36,12 +36,13 @@
       width: 400px;
       height: 250px;
       @include mobile {
-          width: 150px;
-          height: 150px;
-          height: fit-content;
-        }
-
+        width: 150px;
+        height: 150px;
+        height: fit-content;
+      }
+      
       .bitmojis {
+        cursor: pointer;
         height: 150px;
         filter: drop-shadow(0 0 0.75rem black);
         transition: all 1s ease-in-out;

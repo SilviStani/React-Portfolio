@@ -1,5 +1,6 @@
 import Sociales from "../Sociales/Sociales";
 import "./TopBar.scss";
+import Whatsapp from "../Whatsapp/Whatsapp";
 
 export default function TopBar({ menuOpen, setMenuOpen }) {
   return (
@@ -16,7 +17,7 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
           </div>
           <div className="itemContainer">
             <a href="#QuienSoy" class="download-cv">
-              / Yo!/
+              /Sobre Mi/
             </a>
           </div>
           <div className="itemContainer">
@@ -60,23 +61,7 @@ export default function TopBar({ menuOpen, setMenuOpen }) {
           </div>
         </div>
       </div>
-      <div className="WhatsappSilvinaContainer">
-        <p>
-          {" "}
-          ¿Más info? <br />
-          ¡Envíame Whatsapp!
-        </p>
-        <a
-          href="https://api.whatsapp.com/send/?phone=5491163632288&text&app_absent=0"
-          target="blank"
-        >
-          <img
-            className="WhatsappSilvina"
-            src="./assets/contact_me.png"
-            alt="WhatsApp Silvina Staniszewski. Click aquí para enviar mensaje"
-          />
-        </a>
-      </div>
+      <Whatsapp/>
     </div>
   );
 }
