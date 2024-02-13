@@ -8,7 +8,7 @@ const Header = () => {
     <header className={styles.HeaderContainer}>
       <ul className={styles.rowHead}>
         {data.map((e) => (
-          <Link href={e.url} target="_blank" className={styles.links}>
+          <Link href={e.url} className={styles.links}>
             <li key={e.id} className={styles.li}>{e.title}</li>
           </Link>
         ))}

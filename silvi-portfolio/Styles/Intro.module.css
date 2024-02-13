@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .Main {
     display: flex;
     margin: 0;
@@ -45,19 +46,21 @@
 
 .name {
     margin: 12px;
-    font-size: 50px;
+    font-size: 60px;
     font-style: italic;
     color: crimson;
-    font-family: cursive;
+    font-family: "Dancing Script", cursive;
 }
 
 .text {
+    text-align: center;
+    font-family: monospace, cursive;
     font-size: 25px;
 }
 
 .span {
-    font-family: cursive;
+    font-family: monospace, cursive;
     color: crimson;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
 }

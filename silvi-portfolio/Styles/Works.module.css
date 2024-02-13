@@ -1,0 +1,88 @@
+.Container{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.ImagesConatiner{
+    height: 80vh;
+    width: 1100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carouselContainer{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    transition: all 1.5s ease-in-out;
+}
+.leftSide{
+    background-color: whitesmoke;
+    border-right: 2px solid black;
+    margin: 5px;
+    height: 350px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.h3{
+    margin: 10px;
+    font-size: 25px;
+    width: 100px;
+}
+.imageCarousel{
+    transform: rotate(-3deg);
+    border-radius: 20px !important;
+    padding: 2px;
+}
+.links{
+    color: whitesmoke;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background-color: crimson;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px black solid;
+ } 
+.p{
+    text-decoration: none;
+    font-size: 18px;
+}
+.button{
+    height: fit-content;
+    width: 150px;
+}
+.contall{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    width: 1300px;
+}
+.Arrow{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.Arrow{
+    font-size: 30px;
+    color: whitesmoke;
+    margin: 10px;
+}
