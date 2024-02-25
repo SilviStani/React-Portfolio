@@ -1,7 +1,6 @@
 .HeaderContainer{
     height: 80px;
-    background-color: crimson;
-    border-bottom: 3px black solid;
+    background-color: rgb(41, 41, 41);
 }
 .rowHead{
     height: 70px;
@@ -12,9 +11,10 @@
     justify-content: space-around;
 }
 .links{    
+    cursor: pointer;
     text-decoration: none;
 }
 .li{
     list-style: none;
-    color: aliceblue;
+    color: #C5FFF8;
 }

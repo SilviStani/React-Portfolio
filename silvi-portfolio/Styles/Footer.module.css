@@ -1,5 +1,4 @@
 .FooterContainer{
     height: 80px;
-    background-color: crimson;
-    border-top: 3px black solid;
+    background-color: rgb(41, 41, 41);
 }

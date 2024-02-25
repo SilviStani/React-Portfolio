@@ -58,8 +58,8 @@ export const data = [
   },
   {
     id: 8,
-    title: "Vipets.",
-    desc: "Spa Exclusivamente pensada en nuestras queridas mascotas. Vipets ofrece un acceso rápido a las clinicas 24 hs. Proyecto para Bootcamp intensivo. Proyecto final grupal.",
+    title: "Vipets",
+    desc: "Spa pensada en nuestras queridas mascotas. Acceso rápido a las clinicas 24 hs. Proyecto grupal.",
     srcGit: "https://github.com/Navito-py/PF-PuppyPalace",
     srcWeb: "",
     image: "/assets/vipets.png",
@@ -67,7 +67,7 @@ export const data = [
   {
     id: 9,
     title: "Food*HenryApp",
-    desc: "SPA creada como Proyecto individual, en la etapa final de 'Soy Henry Academy'. Aqui es donde aplicamos las skills que hemos aprendido en el bootcamp",
+    desc: "SPA/Proyecto individual, Henry Bootcamp",
     srcGit: "https://github.com/SilviStani/Pi-Food",
     srcWeb: "",
     image: "/assets/foodapp.jpg",
